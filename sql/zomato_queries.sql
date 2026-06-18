@@ -9,6 +9,7 @@
 -- ── Query 1: City-wise delivery performance summary ──
 -- Business Question: Which city has the worst delivery performance?
 
+
 SELECT 
     City,
     COUNT(*) AS total_deliveries,
@@ -19,6 +20,7 @@ SELECT
 FROM zomato_deliveries
 GROUP BY City
 ORDER BY avg_delivery_time DESC;
+
 
 
 -- ── Query 2: Traffic density impact on delivery time ──
@@ -34,6 +36,7 @@ GROUP BY Road_traffic_density
 ORDER BY avg_delivery_time DESC;
 
 
+
 -- ── Query 3: Multiple deliveries impact ──
 -- Business Question: How do simultaneous deliveries affect time?
 
@@ -46,6 +49,7 @@ SELECT
 FROM zomato_deliveries
 GROUP BY multiple_deliveries
 ORDER BY multiple_deliveries;
+
 
 
 -- ── Query 4: Top and bottom performing delivery partners ──
@@ -64,6 +68,7 @@ SELECT
 FROM zomato_deliveries
 GROUP BY rating_category
 ORDER BY avg_delivery_time ASC;
+
 
 
 -- ── Query 5: Worst performing conditions combined ──
