@@ -87,6 +87,11 @@ Zomato-Delivery-Analytics/
 
 ---
 
+![Biggest Operational Lever — Simultaneous Deliveries and Rating Impact](visuals/12_biggest_operational_lever.png)
+
+![Delivery Time by City](visuals/05_city_vs_delivery_time.png)
+
+
 ## Business Recommendations
 
 ### Recommendation 1 — Cap Simultaneous Deliveries at 1
