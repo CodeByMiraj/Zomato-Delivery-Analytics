@@ -133,4 +133,4 @@ Phase 7 → Insights & Recommendations
 ## Author
 **Miraj Rajendra Patil** 
 MCA in Data Science — MIT ADT University
-   [LinkedIn](https://www.linkedin.com/in/miraj-p-a90a87294/) | [GitHub](https://github.com/CodeByMiraj)
+   [LinkedIn](https://linkedin.com/in/mirajpatil/) | [GitHub](https://github.com/CodeByMiraj)
